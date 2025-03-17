@@ -27,4 +27,6 @@ public class ContactDTO {
 
     Long id;
 
+    public ContactDTO(String adityaGupta, String mail, long l, String agra) {
+    }
 }

@@ -22,5 +22,8 @@ public class RedisTokenService {
         return redisTemplate.opsForValue().get("JWT:" + userId);
     }
 
-
+    // Delete token from Redis (Logout)
+    public void deleteToken(String userId) {
+        redisTemplate.delete("JWT:" + userId);
+    }
 }

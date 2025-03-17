@@ -20,6 +20,8 @@ public interface IAuthInterface {
 
     public String resetPassword(String email, String currentPass, String newPass);
 
+    public String logout(HttpServletRequest request, HttpServletResponse response);
+
     public String clear();
 
 }

@@ -12,7 +12,7 @@ The Address Book App is a Spring Boot-based application that allows users to man
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/address-book-app.git
+   git clone https://github.com/Aditya1424/address-book-app.git
    ```
 2. Navigate to the project directory:
    ```sh

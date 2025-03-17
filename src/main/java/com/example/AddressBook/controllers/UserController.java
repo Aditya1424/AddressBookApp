@@ -73,6 +73,15 @@ public class UserController {
         return iAuthInterface.resetPassword(email, currentPass, newPass);
     }
 
+    //UC15 --> Added logout functionality
+    @PostMapping(path = "/logout")
+    public String logout(HttpServletRequest request, HttpServletResponse response){
+
+        log.info("User trie to logout");
+
+        return iAuthInterface.logout(request, response);
+    }
+
 
     @GetMapping("/clear")
     public String clear(){
